@@ -1,7 +1,7 @@
 
 # Introduction
 
-Once installed, you can prefix any bash commands with "reportResult", and when the command finishes running, it'll let you know with a soothing robotic voice. Extra useful for long-running builds that run in the background.
+Once installed, you can prefix any bash commands with "reportResult", and when the command finishes running, it'll let you know with a soothing robotic voice. Extra useful for long-running builds that execute in the background.
 
 # Installation
 
@@ -27,17 +27,17 @@ Prefix your favorite build commands with "reportResult":
 reportResult npm build
 reportResult yarn build
 reportResult mvn clean install
-reportResult gradle install
+reportResult gradle build
 reportResult sleep 10
 ```
 
-For easier execution, feel free to set up some aliases. There are some placeholders and examples for you inside "sourceMe.sh". Here's how they'd work:
+For easier execution, feel free to set up some aliases. There are some examples for you inside "sourceMe.sh" - that's probably a good place to define yours. Here's how they'd work:
 
 ```
 alias mvn='reportResult mvn'
 
 mvn clean install
-# Result gets reported. Wow.
+# Result gets reported with a soothing voice. Wow.
 ```
 
 # Customization
