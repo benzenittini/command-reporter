@@ -27,7 +27,7 @@ Mac comes with a "say" command pre-installed. Your linux distro probably does no
 sudo apt-get install gnustep-gui-runtime
 ```
 
-The linux voice is a little less "soothing" and a little more "I'm going to haunt your in your sleep," but hey, still works.
+The linux voice is a little less "soothing" and a little more "I'm going to haunt you in your sleep," but hey, still works.
 
 # Usage
 
